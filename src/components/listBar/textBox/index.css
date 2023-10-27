@@ -1,0 +1,25 @@
+.textBox-container {
+	width: 400px;
+	height: 400px;
+	overflow-y: auto;
+	border: 4px solid #efefef;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+.textBox-container ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.textBox-container li {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.textBox-container label {
+	color: #000;
+	font-family: Arial, sans-serif;
+}

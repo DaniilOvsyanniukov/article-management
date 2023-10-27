@@ -1,0 +1,19 @@
+.button-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.button-complete,
+.button-undo {
+	width: 100px;
+	height: 50px;
+	background-color: #a4adb4;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: none;
+	color: white;
+	cursor: pointer;
+}

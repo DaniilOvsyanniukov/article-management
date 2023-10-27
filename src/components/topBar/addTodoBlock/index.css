@@ -1,0 +1,14 @@
+.addBox {
+	width: 295px;
+	height: 30px;
+	overflow-y: auto;
+	border: 4px solid #efefef;
+	padding: 10px;
+	background-color: #ffffff;
+	outline: none;
+	margin-right: 5px;
+}
+
+.addBox:focus {
+	border-color: #a4adb4;
+}
